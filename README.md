@@ -75,6 +75,7 @@ $ sudo apt-get update
 $ sudo apt install gtkwave
 ```
 <img width="795" height="594" alt="Screenshot from 2025-09-20 23-30-03" src="https://github.com/user-attachments/assets/ae4a4687-7e59-4463-9705-571b459a7b84" />
+<img width="795" height="594" alt="Screenshot from 2025-09-20 23-30-57" src="https://github.com/user-attachments/assets/e51ca223-cfd7-4e2f-8ec3-d16fa1871509" />
 
 ### Tool Version Check
 
@@ -87,7 +88,9 @@ $ make --version
 $ g++ --version
 $ gcc --version
 ```
-<img width="795" height="594" alt="Screenshot from 2025-09-20 23-30-57" src="https://github.com/user-attachments/assets/e51ca223-cfd7-4e2f-8ec3-d16fa1871509" />
+
 <img width="795" height="594" alt="Screenshot from 2025-09-20 23-38-41" src="https://github.com/user-attachments/assets/100e4d5f-f232-4796-9ad1-506aaf2eb89d" />
+<img width="1160" height="193" alt="Screenshot from 2025-09-21 00-09-39" src="https://github.com/user-attachments/assets/c2c752f2-949c-489c-a816-b9f3b67ee355" />
+<img width="1160" height="54" alt="Screenshot from 2025-09-21 00-16-48" src="https://github.com/user-attachments/assets/e5396e26-46f4-41dd-a3a7-6c444d4dcffe" />
 
 
