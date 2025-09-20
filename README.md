@@ -65,7 +65,6 @@ $ sudo apt-get install iverilog
 ```
 <img width="790" height="529" alt="Screenshot from 2025-09-20 23-29-27" src="https://github.com/user-attachments/assets/2f4db6e1-72b7-4220-a543-aa95e91ea232" />
 
-
 ### GTKWave
 
 GTKWave is a waveform viewer used to display simulation results.
@@ -76,6 +75,18 @@ $ sudo apt-get update
 $ sudo apt install gtkwave
 ```
 <img width="795" height="594" alt="Screenshot from 2025-09-20 23-30-03" src="https://github.com/user-attachments/assets/ae4a4687-7e59-4463-9705-571b459a7b84" />
+
+### Tool Version Check
+
+This section shows the commands to verify the installed versions of essential tools.
+
+```bash
+
+$ git --version
+$ make --version
+$ g++ --version
+$ gcc --version
+```
 <img width="795" height="594" alt="Screenshot from 2025-09-20 23-30-57" src="https://github.com/user-attachments/assets/e51ca223-cfd7-4e2f-8ec3-d16fa1871509" />
 <img width="795" height="594" alt="Screenshot from 2025-09-20 23-38-41" src="https://github.com/user-attachments/assets/100e4d5f-f232-4796-9ad1-506aaf2eb89d" />
 
