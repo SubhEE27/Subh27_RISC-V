@@ -1,59 +1,73 @@
 # Subh27_RISC-V
-# Week 0 Task – Environment Setup
 
-This document describes the initial setup required for participating in the VSD RISC-V Tapeout Program. It includes installation of the necessary operating system, tools, and dependencies.
+# Week 0 Task
 
-# System Requirements
+This document outlines the setup instructions and system requirements for completing the Week 0 task.
 
-Operating System: Ubuntu 20.04 or higher
+## Prerequisites
 
-RAM: Minimum 6 GB
+### 1\. Oracle VirtualBox
 
-Storage: Minimum 50 GB HDD/SSD
+Download and install the Oracle VirtualBox from the official website. This is required to set up the Ubuntu virtual machine.
 
-CPU: Minimum 4 vCPUs
+  * **Link**: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 
-# Download Oracle VirtualBox for setting up the environment:
-VirtualBox Downloads
+### 2\. System Requirements
 
-# Tool Installation
-# 1. Yosys (Logic Synthesis Tool)
+Ensure your system meets the following specifications for the virtual machine.
 
-Yosys is used for RTL synthesis.
+  * **RAM**: At least 6 GB
+  * **HDD**: At least 50 GB of free space
+  * **Operating System**: Ubuntu 20.04 or higher
+  * **vCPU**: At least 4 virtual CPUs
 
-sudo apt-get update
+-----
 
-git clone https://github.com/YosysHQ/yosys.git
+## Tool Installation
 
-cd yosys
+Follow the steps below to install the necessary tools for the project.
 
-sudo apt-get install make build-essential clang bison flex \
+### Yosys
 
+Yosys is an open-source framework for Verilog RTL synthesis.
+
+```bash
+# Update package list
+$ sudo apt-get update
+
+# Clone the Yosys repository
+$ git clone https://github.com/YosysHQ/yosys.git
+$ cd yosys
+
+# Install dependencies and build tools
+$ sudo apt install make
+$ sudo apt-get install build-essential clang bison flex \
 libreadline-dev gawk tcl-dev libffi-dev git \
-
 graphviz xdot pkg-config python3 libboost-system-dev \
-
 libboost-python-dev libboost-filesystem-dev zlib1g-dev
 
-make config-gcc
+# Configure, build, and install Yosys
+$ make config-gcc
+$ make
+$ sudo make install
+```
 
-make
+### Icarus Verilog (Iverilog)
 
-sudo make install
+Iverilog is a Verilog compiler that generates an intermediate format for simulation.
 
-# 2. Icarus Verilog (Simulation Tool)
+```bash
+# Update package list and install Icarus Verilog
+$ sudo apt-get update
+$ sudo apt-get install iverilog
+```
 
-Icarus Verilog is used for compiling and simulating Verilog code.
+### GTKWave
 
-sudo apt-get update
-sudo apt-get install iverilog
+GTKWave is a waveform viewer used to display simulation results.
 
-# 3. GTKWave (Waveform Viewer)
-
-GTKWave is used to view simulation waveforms.
-
-sudo apt-get update
-sudo apt-get install gtkwave
-
-sudo apt-get update
-sudo apt-get install gtkwave
+```bash
+# Update package list and install GTKWave
+$ sudo apt-get update
+$ sudo apt install gtkwave
+```
