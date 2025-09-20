@@ -53,8 +53,6 @@ $ sudo make install
 ```
 <img width="790" height="547" alt="Screenshot from 2025-09-20 23-28-28" src="https://github.com/user-attachments/assets/8dc6fd63-c7ae-458d-8660-63d7a518aa86" />
 <img width="790" height="529" alt="Screenshot from 2025-09-20 23-28-53" src="https://github.com/user-attachments/assets/a8f4dbdb-cfab-46b4-9e3f-2d3e13121b4e" />
-<img width="790" height="529" alt="Screenshot from 2025-09-20 23-29-27" src="https://github.com/user-attachments/assets/7456f050-ad1c-47ff-b2cb-88ddf0b4c6ce" />
-
 
 ### Icarus Verilog (Iverilog)
 
@@ -65,6 +63,8 @@ Iverilog is a Verilog compiler that generates an intermediate format for simulat
 $ sudo apt-get update
 $ sudo apt-get install iverilog
 ```
+<img width="790" height="529" alt="Screenshot from 2025-09-20 23-29-27" src="https://github.com/user-attachments/assets/2f4db6e1-72b7-4220-a543-aa95e91ea232" />
+
 
 ### GTKWave
 
@@ -75,3 +75,8 @@ GTKWave is a waveform viewer used to display simulation results.
 $ sudo apt-get update
 $ sudo apt install gtkwave
 ```
+<img width="795" height="594" alt="Screenshot from 2025-09-20 23-30-03" src="https://github.com/user-attachments/assets/ae4a4687-7e59-4463-9705-571b459a7b84" />
+<img width="795" height="594" alt="Screenshot from 2025-09-20 23-30-57" src="https://github.com/user-attachments/assets/e51ca223-cfd7-4e2f-8ec3-d16fa1871509" />
+<img width="795" height="594" alt="Screenshot from 2025-09-20 23-38-41" src="https://github.com/user-attachments/assets/100e4d5f-f232-4796-9ad1-506aaf2eb89d" />
+
+
